@@ -12,6 +12,7 @@
     "node": ">=18.16.0"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "vite": "^4.0.4"
   },
   "dependencies": {
