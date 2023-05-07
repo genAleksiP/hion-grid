@@ -139,5 +139,11 @@ window.addEventListener( 'DOMContentLoaded', () => {
 
     render()
 
+
+
+    // Hide swipe indicator on initial document click
+    theCanvas.addEventListener("click", () => {
+        document.querySelector("#swipe-indicator").classList.add("hidden");
+    })
+
 } );
-       

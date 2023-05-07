@@ -63,6 +63,36 @@ h1 {
 	user-select: none;
 }
 
+#swipe-indicator {
+	width: auto;
+	bottom: 4rem;
+	left: 50%;
+	position: absolute;
+	user-select: none;
+	pointer-events: none;
+	transform: translateX(-50%);
+	transition: opacity 0.3s, visibility 0.3s;
+}
+
+#swipe-indicator.hidden {
+	opacity: 0;
+	visibility: hidden;
+}
+
+#swipe-indicator img {
+	width: 40px;
+	height: auto;
+	display: block;
+	position: relative;
+	animation: swiper_anim 2.5s 1.0s ease-in-out 5 forwards;
+}
+
+@keyframes swiper_anim {
+	0%, 60%, 100% { transform: translateX(0px); }
+	20% { transform: translateX(15px); }
+	40% { transform: translateX(-15px); }
+}
+
 #theCanvas {
 	z-index: 1;
 	top: 0;
