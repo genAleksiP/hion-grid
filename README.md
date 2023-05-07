@@ -18,4 +18,4 @@ Just some [Three.js](https://threejs.org/) experimentation
 `npx vite build`
 
 **Deploy to Github pages using "gh-pages" package**
-`gh-pages -d dist` OR `npx vite deploy`
+`gh-pages -d dist`
