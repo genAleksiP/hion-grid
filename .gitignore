@@ -1,6 +1,5 @@
 # Node artifact files
 node_modules/
-dist/
 
 # Compiled Java class files
 *.class
@@ -16,7 +15,6 @@ dist/
 
 # Maven
 target/
-dist/
 
 # JetBrains IDE
 .idea/
