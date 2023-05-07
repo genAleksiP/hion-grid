@@ -19,3 +19,7 @@ Just some [Three.js](https://threejs.org/) experimentation
 
 **Deploy to Github pages using [gh-pages](https://www.npmjs.com/package/gh-pages) package**
 `gh-pages -d dist`
+
+## Demo
+
+Working demo » [Hion Grid](https://genaleksip.github.io/hion-grid/ )
