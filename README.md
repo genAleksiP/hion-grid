@@ -17,5 +17,5 @@ Just some [Three.js](https://threejs.org/) experimentation
 **Build for production in the dist/ directory**
 `npx vite build`
 
-**Deploy to Github pages using "gh-pages" package**
+**Deploy to Github pages using [gh-pages](https://www.npmjs.com/package/gh-pages) package**
 `gh-pages -d dist`
