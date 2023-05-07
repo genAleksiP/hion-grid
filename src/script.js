@@ -55,6 +55,7 @@ window.addEventListener( 'DOMContentLoaded', () => {
             // 2 * Math.PI * (p_angle / 360)
             hionLogoMesh.rotation.y = 2 * Math.PI * (45 / 360);
 
+            spinLogo();
             render();
         }
     );
@@ -102,7 +103,7 @@ window.addEventListener( 'DOMContentLoaded', () => {
     // LOGO SPIN ANIMATION
     function spinLogo() {
 
-        hionLogoMesh.rotation.y -= 2 * Math.PI * (3.0 / 360);
+        hionLogoMesh.rotation.y -= 2 * Math.PI * (1.5 / 360);
         
         if (hionLogoMesh.rotation.y < 2 * Math.PI * (-360 / 360)) {
             hionLogoMesh.rotation.y = 2 * Math.PI * (0 / 360);
